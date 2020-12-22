@@ -9,7 +9,8 @@
     </div>
 
 
-    <a href="{% url 'post_edit' post.pk %}">+ Edited Blog Post</a>
+    <p><a href="{% url 'post_edit' post.pk %}">+ Edited Blog Post</a></p>
+    <p><a href="{% url 'post_delete' post.pk %}">+ Delete Blog Post</a></p>
 
 
 {% endblock content %}
