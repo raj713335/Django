@@ -1,7 +1,7 @@
 # articles/urls.py
 
 from django.urls import path
-from .views import ArticleListView,ArticleUpdateView,ArticleDetailView,ArticleDeleteView, # new
+from .views import ArticleListView,ArticleUpdateView,ArticleDetailView,ArticleDeleteView
 
 
 urlpatterns = [
