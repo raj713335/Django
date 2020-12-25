@@ -15,3 +15,6 @@ class TodoModelTest(TestCase):
         todo = Todo.objects.get(id=1)
         expected_object_name = f'{todo.body}'
         self.assertEquals(expected_object_name, 'a body here')
+
+
+# curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
